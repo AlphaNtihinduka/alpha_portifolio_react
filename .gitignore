@@ -22,3 +22,12 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# dependencies
+/node_modules
+/.pnp
+/build
+.pnp.js
+
+package - Copy.json
