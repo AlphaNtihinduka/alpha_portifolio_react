@@ -11,7 +11,7 @@ function MyWork() {
 
           <div className="row">
             <div className="col-6">
-              <h2 className="ff-jose fw-bold ls-2">Something I have Built</h2>
+              <h2 className="ff-jose fw-bold ls-2">The projects I have Built</h2>
             </div>
           </div>
           <hr />
@@ -21,13 +21,19 @@ function MyWork() {
               <div id="carouselExampleControls1" className="carousel slide my-1" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src="../portfolio-images/w-01.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/budget-1.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/w-02.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/budget-2.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/w-03.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/budget-3.png" className="d-block w-100" alt="..." />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="../portfolio-images/budget-4.png" className="d-block w-100" alt="..." />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="../portfolio-images/budget-5.png" className="d-block w-100" alt="..." />
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
@@ -39,14 +45,9 @@ function MyWork() {
                   <span className="visually-hidden">Next</span>
                 </button>
               </div>
-              <h5 className="ff-jose my-1">Weather App</h5>
+              <h5 className="ff-jose my-1">Budget App</h5>
               <div className="row d-flex justify-content-center">
-                <a href="https://weather-yg.herokuapp.com/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
-                  <BsLaptop />
-                  {' '}
-                  Watch Live
-                </a>
-                <a href="https://github.com/Yagnik-Gohil/Weather" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
+                <a href="https://github.com/AlphaNtihinduka/budget_app" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <AiFillGithub />
                   {' '}
                   Source Code
@@ -59,13 +60,13 @@ function MyWork() {
               <div id="carouselExampleControls2" className="carousel slide my-1" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src="../portfolio-images/m-01.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/covid-1.png" className="d-block w-100 h-50" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/m-02.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/covid-2.png" className="d-block w-100 h-50" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/m-03.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/covid-3.png" className="d-block w-100 h-50" alt="..." />
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
@@ -78,14 +79,14 @@ function MyWork() {
                 </button>
               </div>
               <div>
-                <h5 className="ff-jose my-1">Movie Browser</h5>
+                <h5 className="ff-jose my-1">Covid Tracker</h5>
                 <div className="row d-flex justify-content-center">
-                  <a href="https://moviehunt-react.herokuapp.com/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
+                  <a href="https://amazing-starship-cbd105.netlify.app/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                     <BsLaptop />
                     {' '}
                     Watch Live
                   </a>
-                  <a href="https://github.com/Yagnik-Gohil/MovieHunt" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/AlphaNtihinduka/covid-tracker" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                     <AiFillGithub />
                     {' '}
                     Source Code
@@ -99,16 +100,16 @@ function MyWork() {
               <div id="carouselExampleControls3" className="carousel slide my-1" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src="../portfolio-images/n-01.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/movie-1.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/n-02.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/movie-2.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/n-03.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/movie-3.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/n-04.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/movie-4.png" className="d-block w-100" alt="..." />
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
@@ -120,9 +121,14 @@ function MyWork() {
                   <span className="visually-hidden">Next</span>
                 </button>
               </div>
-              <h5 className="ff-jose my-1">Notes MarketPlace</h5>
+              <h5 className="ff-jose my-1">Movie Browser App</h5>
               <div className="row d-flex justify-content-center">
-                <a href="https://github.com/Yagnik-Gohil/NoteMarketPlaceHTML" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
+                <a href="https://alphantihinduka.github.io/Browse-movie-app/#" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
+                  <BsLaptop />
+                  {' '}
+                  Watch Live
+                </a>
+                <a href="https://github.com/AlphaNtihinduka/Browse-movie-app" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <AiFillGithub />
                   {' '}
                   Source Code
@@ -135,16 +141,16 @@ function MyWork() {
               <div id="carouselExampleControls4" className="carousel slide my-1" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src="../portfolio-images/solo-01.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/conference-1.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/solo-02.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/conference-2.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/solo-03.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/conference-3.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/solo-04.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/conference-4.png" className="d-block w-100" alt="..." />
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
@@ -156,14 +162,14 @@ function MyWork() {
                   <span className="visually-hidden">Next</span>
                 </button>
               </div>
-              <h5 className="ff-jose my-1">Solo</h5>
+              <h5 className="ff-jose my-1">Conference</h5>
               <div className="row d-flex justify-content-center">
-                <a href="https://solo-webapp.herokuapp.com/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
+                <a href="https://spontaneous-chaja-39a421.netlify.app/about.html#" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <BsLaptop />
                   {' '}
                   Watch Live
                 </a>
-                <a href="https://github.com/Yagnik-Gohil/Solo" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
+                <a href="https://github.com/AlphaNtihinduka/Conference-capstone1" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <AiFillGithub />
                   {' '}
                   Source Code
@@ -176,16 +182,16 @@ function MyWork() {
               <div id="carouselExampleControls5" className="carousel slide my-1" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src="../portfolio-images/resume-1.jpg" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/food-1.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/resume-2.jpg" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/food-2.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/resume-3.jpg" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/food-3.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/resume-4.jpg" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/food-4.png" className="d-block w-100" alt="..." />
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="prev">
@@ -197,14 +203,9 @@ function MyWork() {
                   <span className="visually-hidden">Next</span>
                 </button>
               </div>
-              <h5 className="ff-jose my-1">Resume Builder</h5>
+              <h5 className="ff-jose my-1">Food Recipe</h5>
               <div className="row d-flex justify-content-center">
-                <a href="https://resume-builder-yg.netlify.app/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
-                  <BsLaptop />
-                  {' '}
-                  Watch Live
-                </a>
-                <a href="https://github.com/Yagnik-Gohil/Resume-Builder" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
+                <a href="https://github.com/AlphaNtihinduka/food_reciepe" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <AiFillGithub />
                   {' '}
                   Source Code
@@ -217,19 +218,16 @@ function MyWork() {
               <div id="carouselExampleControls6" className="carousel slide my-1" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src="../portfolio-images/tour-01.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/wifi-1.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/tour-02.png" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/wifi-2.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/tour-03.jpg" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/wifi-3.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
-                    <img src="../portfolio-images/tour-04.jpg" className="d-block w-100" alt="..." />
-                  </div>
-                  <div className="carousel-item">
-                    <img src="../portfolio-images/tour-05.jpg" className="d-block w-100" alt="..." />
+                    <img src="../portfolio-images/wifi-4.png" className="d-block w-100" alt="..." />
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="prev">
@@ -241,14 +239,14 @@ function MyWork() {
                   <span className="visually-hidden">Next</span>
                 </button>
               </div>
-              <h5 className="ff-jose my-1">Natours</h5>
+              <h5 className="ff-jose my-1">Wifi company website</h5>
               <div className="row d-flex justify-content-center">
-                <a href="https://natour-yg.herokuapp.com/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
+                <a href="https://www.brittnconnect.com" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <BsLaptop />
                   {' '}
                   Watch Live
                 </a>
-                <a href="https://github.com/Yagnik-Gohil/Natours" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
+                <a href="https://github.com/AlphaNtihinduka/Brittnconnect" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <AiFillGithub />
                   {' '}
                   Source Code
