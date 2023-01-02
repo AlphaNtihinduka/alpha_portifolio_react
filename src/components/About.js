@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 function About() {
   return (
@@ -44,7 +44,7 @@ function About() {
                 <div className="slide-in-bottom">
                   The technology I have worked on
                   <div className="text-red ls-2">
-                    <span className="text-success">Languages </span>
+                    <span className="text-success">Languages: </span>
                     JavaScript, React js, Ruby, Rails, MySQL, Postgresql.
                     {' '}
                     <br />

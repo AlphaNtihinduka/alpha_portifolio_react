@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { GrPrevious, GrNext } from 'react-icons/gr';
 import { BsLaptop } from 'react-icons/bs';
 import { AiFillGithub } from 'react-icons/ai';

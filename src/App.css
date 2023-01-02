@@ -1,126 +1,124 @@
-/* 
-    Color Scheme:
-    Get your favourite theme here: https://colorhunt.co/ and change all occurrences of below colors
-    
-        #1A1A2E Black
-        #16213E Dark Blue
-        #0F3460 Blue
-        #E94560 Red 
-
-    Fonts:
-    https://fonts.google.com/
-
-    go to google fonts and select one regular and one bold font and replpace the import url
-    change font-family in 
-        html, body
-        ff-jose
-        font-big
-
-*/
-
-
 @import url('https://fonts.googleapis.com/css2?family=Jost&family=Quicksand&display=swap');
 
-html, body{
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-    background-color: #16213E;
-    color: white;
+html,
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #16213e;
+  color: white;
 }
 
-.ff-jose{
-    font-family: 'Jost', sans-serif ;
+.ff-jose {
+  font-family: 'Jost', sans-serif;
 }
-.font-big{
-    font-family: 'Jost', sans-serif;
-    font-size: 50px;
-    font-weight: bolder;
-    letter-spacing: 2px;
+
+.font-big {
+  font-family: 'Jost', sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  letter-spacing: 2px;
 }
-.bg-dark{
-    background-color: #1A1A2E !important;
+
+.bg-dark {
+  background-color: #1a1a2e !important;
 }
+
 .bg-blue {
-    background-color: #0F3460;
+  background-color: #0f3460;
 }
+
 .text-red {
-    color: #E94560;
+  color: #e94560;
 }
+
 .text-black {
-    color: #1A1A2E;
+  color: #1a1a2e;
 }
+
 .dropdown-item:active {
-    background-color: #0F3460 !important;
+  background-color: #0f3460 !important;
 }
+
 .active {
-    color: #E94560 !important;
-    background-color: #1A1A2E !important;
-    font-weight: 600;
-    transition: transform 0.2s;
-    transform: scale(1.1);
+  color: #e94560 !important;
+  background-color: #1a1a2e !important;
+  font-weight: 600;
+  transition: transform 0.2s;
+  transform: scale(1.1);
 }
+
 @keyframes slideInLeft {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-@keyframes slideInTop {
-    0% {
-      transform: translateY(-10%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
-@keyframes slideInBottom {
-    0% {
-      transform: translateY(10%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
-@keyframes slideInBottomTechnology {
-    0% {
-      transform: translateY(10%);
-    }
-    100% {
-      transform: translateY(0);
-    }
+  0% {
+    transform: translateX(-100%);
   }
 
-  .slide-in-left {
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: slideInLeft;
+  100% {
+    transform: translateX(0);
   }
-  .slide-in-top {
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: slideInTop;
+}
+
+@keyframes slideInTop {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0;
   }
-  .slide-in-bottom {
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: slideInBottom;
+
+  100% {
+    transform: translateY(0);
   }
+}
+
+@keyframes slideInBottom {
+  0% {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInBottomTechnology {
+  0% {
+    transform: translateY(10%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slide-in-left {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInLeft;
+}
+
+/* stylelint-disable */
+
+.slide-in-top {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInTop;
+}
+
+.slide-in-bottom {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInBottom;
+}
 
 /* ===================== Transition ===================== */
 
-.animate-charcter
-{
-  background-image: linear-gradient(-225deg,#ffffff,#E94560,#E94560,#ffffff);
+.animate-charcter {
+  background-image: linear-gradient(-225deg, #fff, #e94560, #e94560, #fff);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -138,9 +136,9 @@ html, body{
 }
 
 /* ===================== Home ===================== */
-.ls-2{
-    letter-spacing: 2px; 
- }
+.ls-2 {
+  letter-spacing: 2px;
+}
 
 /* ===================== Skills ===================== */
 .mw-fc {
@@ -149,23 +147,25 @@ html, body{
 
 /* ===================== Resume ===================== */
 li::marker {
-    color: #E94560;
-    font-size: 2em;
+  color: #e94560;
+  font-size: 2em;
 }
-.blue-label{
-    background-color: #0F3460;
-    width: max-content;
+
+.blue-label {
+  background-color: #0f3460;
+  width: max-content;
 }
+
 .zoom-on-hover:hover {
-    transition: transform 0.2s;
-    transform: scale(1.1);
+  transition: transform 0.2s;
+  transform: scale(1.1);
 }
 
 /* ===================== Portfolio ===================== */
 
-.portfolio-link:hover{
-    background-color: #E94560;
-    -webkit-transition: background-color 300ms linear;
-    -ms-transition: background-color 300ms linear;
-    transition: background-color 300ms linear;
+.portfolio-link:hover {
+  background-color: #e94560;
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
 }
