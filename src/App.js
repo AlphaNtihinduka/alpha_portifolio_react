@@ -1,5 +1,5 @@
 import './App.css';
-import {Routes,Route} from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Home from './components/Home';
 import Sidebar from './components/Sidebar';
@@ -11,14 +11,14 @@ function App() {
   return (
     <div className="app-container container-fluid">
       <div className="row flex-nowrap">
-        
-        <Sidebar></Sidebar>
+
+        <Sidebar />
         <Routes>
-          <Route path="/" element={ <Home/> } exact></Route>
-          <Route path="/about" element={<About/>}></Route>
-          <Route path="/skills" element={<Skills/>}></Route>
-          <Route path="/resume" element={<Resume/>}></Route>
-          <Route path="/mywork" element={<MyWork/>}></Route>
+          <Route path="/" element={<Home />} exact />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/mywork" element={<MyWork />} />
         </Routes>
 
       </div>
