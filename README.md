@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Javascript Leaderboard project] <a name="about-project"></a>
+# 📖 [Alpha portfolio] <a name="about-project"></a>
 
 > This is portfolio application that shows about myself, skills, experiences, projects and resume.
 
