@@ -107,7 +107,7 @@ function Sidebar() {
                 {' '}
               </li>
               <li>
-              <NavLink to="/contactform" className="dropdown-item text-black">
+                <NavLink to="/contactform" className="dropdown-item text-black">
                   <AiFillContacts className="fs-5" />
                   {' '}
                   Contact Form

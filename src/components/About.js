@@ -14,32 +14,11 @@ function About() {
                 <hr />
                 <p className="slide-in-bottom">
                   Ambitious full-stack developer, a self-led learner and team player
-                  <br />
-                  with two years of experience in web developement.
+                  with two years of experience in both solo and collaborative web developement.
                 </p>
                 <p className="slide-in-bottom">
                   Currently looking for new opportunities in industry and willing
-                  <br />
                   to work on challenging and diverse projects with the latest technologies.
-                </p>
-                <p className="slide-in-bottom">
-                  In love with pair-programming, JavaScript,
-                  #React Js and Redux, Ruby, Ruby on rails,
-                  and remote work | Entrepreneur | Founder.
-                </p>
-                <p className="slide-in-bottom">
-                  I have got opportunity
-                  to collaborate with other developers accross the globe and also learn soft skills
-                  (communication, job interview, job application, and cross-culture).
-                  <br />
-
-                  I have a passion for working collaboratively. I have contributed to different
-                  {' '}
-                  <br />
-                  projects of software developers around the globe remotely.
-                  <br />
-                  This has enhanced my skills in solving coding challenges, professional
-                  communication skills, and establishing a good working environment.
                 </p>
                 <div className="slide-in-bottom">
                   The technology I have worked on

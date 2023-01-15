@@ -1,4 +1,3 @@
-
 import './globe.scss';
 
 const Globe = () => (
