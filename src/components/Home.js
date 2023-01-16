@@ -1,4 +1,5 @@
 import React from 'react';
+import Globe from './globe/Globe';
 
 function Home() {
   return (
@@ -24,7 +25,7 @@ function Home() {
           </div>
 
         </div>
-
+        <Globe />
       </div>
     </>
   );
