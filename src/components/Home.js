@@ -1,4 +1,5 @@
 import React from 'react';
+import './home.css';
 
 function Home() {
   return (
@@ -12,19 +13,17 @@ function Home() {
             <div className="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
               <div>
                 <h1 className="m-0 font-big slide-in-top">Hi,</h1>
-                <h1 className="m-0 font-big animate-charcter">I am Ntihinduka Alpha,</h1>
-                <p className="ls-2 mt-2 slide-in-bottom">Full Stack Developer</p>
+                <h1 className="m-0 font-big animate-charcter name-title">I am Ntihinduka Alpha,</h1>
+                <p className="ls-2 mt-2 slide-in-bottom profile-desc">Full Stack Developer</p>
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            <div className="col-lg-6 col-md-12 col-sm-12 image-animate">
               <img className="img-fluid" src="../images/nomad-bro.png" alt="profile" />
             </div>
 
           </div>
-
         </div>
-
       </div>
     </>
   );

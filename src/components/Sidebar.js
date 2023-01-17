@@ -3,7 +3,9 @@ import { VscHome } from 'react-icons/vsc';
 import { FiUser } from 'react-icons/fi';
 import { BsCode } from 'react-icons/bs';
 import { MdOutlineDashboard, MdOutlineContactPage, MdEmail } from 'react-icons/md';
-import { AiFillLinkedin, AiFillGithub, AiOutlineUnorderedList } from 'react-icons/ai';
+import {
+  AiFillLinkedin, AiFillGithub, AiOutlineUnorderedList, AiFillContacts,
+} from 'react-icons/ai';
 import { Link, NavLink } from 'react-router-dom';
 
 function Sidebar() {
@@ -94,6 +96,24 @@ function Sidebar() {
                   Github
                 </a>
               </li>
+              <li>
+                {' '}
+                <hr className="dropdown-divider" />
+                {' '}
+              </li>
+              <li>
+                {' '}
+                <hr className="dropdown-divider" />
+                {' '}
+              </li>
+              <li>
+                <NavLink to="/contactform" className="dropdown-item text-black">
+                  <AiFillContacts className="fs-5" />
+                  {' '}
+                  Contact Form
+                </NavLink>
+              </li>
+
               <li>
                 {' '}
                 <hr className="dropdown-divider" />

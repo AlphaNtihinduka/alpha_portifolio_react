@@ -1,0 +1,17 @@
+.popup {
+  background-color: #0f3460;
+  height: 16rem;
+  width: 14rem;
+  font-size: 1.08rem;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  bottom: -1rem;
+}
+
+.description-btn {
+  background-color: #0f3460;
+  border: none;
+  color: white;
+  border-radius: 0.2rem;
+}

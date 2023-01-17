@@ -1,7 +1,10 @@
-import React from 'react';
+import { React } from 'react';
 import { GrPrevious, GrNext } from 'react-icons/gr';
 import { BsLaptop } from 'react-icons/bs';
 import { AiFillGithub } from 'react-icons/ai';
+import Popup from 'reactjs-popup';
+import ProjectsDescription from './projects/ProjectDescription';
+import './mywork.css';
 
 function MyWork() {
   return (
@@ -46,7 +49,15 @@ function MyWork() {
                 </button>
               </div>
               <h5 className="ff-jose my-1">Budget App</h5>
+              <Popup trigger={<button type="button" className="description-btn"> Description</button>} position="right center">
+                <div className="popup">{ProjectsDescription[0]}</div>
+              </Popup>
               <div className="row d-flex justify-content-center">
+                <a href="https://budget-app-a3.onrender.com/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
+                  <BsLaptop />
+                  {' '}
+                  Watch Live
+                </a>
                 <a href="https://github.com/AlphaNtihinduka/budget_app" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <AiFillGithub />
                   {' '}
@@ -80,6 +91,9 @@ function MyWork() {
               </div>
               <div>
                 <h5 className="ff-jose my-1">Covid Tracker</h5>
+                <Popup trigger={<button type="button" className="description-btn"> Description</button>} position="right center">
+                  <div className="popup">{ProjectsDescription[1]}</div>
+                </Popup>
                 <div className="row d-flex justify-content-center">
                   <a href="https://amazing-starship-cbd105.netlify.app/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                     <BsLaptop />
@@ -122,6 +136,9 @@ function MyWork() {
                 </button>
               </div>
               <h5 className="ff-jose my-1">Movie Browser App</h5>
+              <Popup trigger={<button type="button" className="description-btn"> Description</button>} position="right center">
+                <div className="popup">{ProjectsDescription[2]}</div>
+              </Popup>
               <div className="row d-flex justify-content-center">
                 <a href="https://alphantihinduka.github.io/Browse-movie-app/#" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <BsLaptop />
@@ -163,6 +180,9 @@ function MyWork() {
                 </button>
               </div>
               <h5 className="ff-jose my-1">Conference</h5>
+              <Popup trigger={<button type="button" className="description-btn"> Description</button>} position="right center">
+                <div className="popup">{ProjectsDescription[3]}</div>
+              </Popup>
               <div className="row d-flex justify-content-center">
                 <a href="https://spontaneous-chaja-39a421.netlify.app/about.html#" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <BsLaptop />
@@ -203,7 +223,10 @@ function MyWork() {
                   <span className="visually-hidden">Next</span>
                 </button>
               </div>
-              <h5 className="ff-jose my-1">Food Recipe</h5>
+              <h5 className="ff-jose my-1">YUFAT organisation</h5>
+              <Popup trigger={<button type="button" className="description-btn"> Description</button>} position="right center">
+                <div className="popup">{ProjectsDescription[4]}</div>
+              </Popup>
               <div className="row d-flex justify-content-center">
                 <a href="https://github.com/AlphaNtihinduka/food_reciepe" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <AiFillGithub />
@@ -240,6 +263,9 @@ function MyWork() {
                 </button>
               </div>
               <h5 className="ff-jose my-1">Wifi company website</h5>
+              <Popup trigger={<button type="button" className="description-btn"> Description</button>} position="right center">
+                <div className="popup">{ProjectsDescription[5]}</div>
+              </Popup>
               <div className="row d-flex justify-content-center">
                 <a href="https://www.brittnconnect.com" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <BsLaptop />

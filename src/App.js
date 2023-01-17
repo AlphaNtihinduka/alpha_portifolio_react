@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar';
 import Skills from './components/Skills';
 import Resume from './components/Resume';
 import MyWork from './components/MyWork';
+import ContactForm from './components/ContactForm';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/mywork" element={<MyWork />} />
+          <Route path="/contactform" element={<ContactForm />} />
         </Routes>
 
       </div>
