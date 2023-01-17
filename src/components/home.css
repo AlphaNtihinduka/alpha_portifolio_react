@@ -1,24 +1,23 @@
 .profile-desc {
-    color: rgba(0, 212, 255, 1);;
-    animation: slideinp 2s ease-in;
-    font-size: 1.5rem;
+  color: rgba(0, 212, 255, 1);
+  animation: slideinp 2s ease-in;
+  font-size: 1.5rem;
+}
+
+@keyframes slideinp {
+  from {
+    opacity: 0;
+    transform: translate(-5rem, 0);
   }
-  
-  @keyframes slideinp {
-    from {
-      opacity: 0;
-      transform: translate(-5rem, 0);
-    }
-  }
+}
 
 .image-animate {
-    animation: slidein 1.5s ease-in;
+  animation: slidein 1.5s ease-in;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+    transform: translate(0, -7rem);
   }
-  
-  @keyframes slidein {
-    from {
-      opacity: 0;
-      transform: translate(0, -7rem);
-    }
-  }
-  
+}
