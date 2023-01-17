@@ -111,7 +111,7 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://celadon-quokka-98e2b2.netlify.app/)
+- [Live Demo Link](https://ntihindukaalpha.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

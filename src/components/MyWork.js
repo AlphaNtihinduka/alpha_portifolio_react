@@ -56,7 +56,7 @@ function MyWork() {
                 <a href="https://budget-app-a3.onrender.com/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <BsLaptop />
                   {' '}
-                  Watch Live
+                  Live
                 </a>
                 <a href="https://github.com/AlphaNtihinduka/budget_app" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <AiFillGithub />
@@ -98,7 +98,7 @@ function MyWork() {
                   <a href="https://amazing-starship-cbd105.netlify.app/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                     <BsLaptop />
                     {' '}
-                    Watch Live
+                    Live
                   </a>
                   <a href="https://github.com/AlphaNtihinduka/covid-tracker" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                     <AiFillGithub />
@@ -143,7 +143,7 @@ function MyWork() {
                 <a href="https://alphantihinduka.github.io/Browse-movie-app/#" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <BsLaptop />
                   {' '}
-                  Watch Live
+                  Live
                 </a>
                 <a href="https://github.com/AlphaNtihinduka/Browse-movie-app" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <AiFillGithub />
@@ -187,7 +187,7 @@ function MyWork() {
                 <a href="https://spontaneous-chaja-39a421.netlify.app/about.html#" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <BsLaptop />
                   {' '}
-                  Watch Live
+                  Live
                 </a>
                 <a href="https://github.com/AlphaNtihinduka/Conference-capstone1" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <AiFillGithub />
@@ -228,7 +228,12 @@ function MyWork() {
                 <div className="popup">{ProjectsDescription[4]}</div>
               </Popup>
               <div className="row d-flex justify-content-center">
-                <a href="https://github.com/AlphaNtihinduka/food_reciepe" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
+                <a href="https://www.yufat.org/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
+                  <BsLaptop />
+                  {' '}
+                  Live
+                </a>
+                <a href="https://github.com/AlphaNtihinduka/yufat-org" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <AiFillGithub />
                   {' '}
                   Source Code
@@ -270,7 +275,7 @@ function MyWork() {
                 <a href="https://www.brittnconnect.com" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <BsLaptop />
                   {' '}
-                  Watch Live
+                  Live
                 </a>
                 <a href="https://github.com/AlphaNtihinduka/Brittnconnect" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer">
                   <AiFillGithub />
