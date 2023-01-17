@@ -7,7 +7,7 @@ const ProjectsDescription = [
 
   'The girls need to come together to discuss. This website shows the speakers and events that will take place at the conference. JAVASCRIPT, HTML, CSS',
 
-  'The organisation website helps the donors to track the activities of the organisation. They can also visit the social handles. React JS, Webpack',
+  'The organisation website helps the donors to track the activities of the organisation. They can also visit the social handles. React JS, Webpack.',
 
   'The users can be able to see the company wifi subscription, have ability to contact the marketing team and make reservations. HTML, CSS.',
 ];
