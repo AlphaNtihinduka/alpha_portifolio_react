@@ -9,8 +9,8 @@ import './mywork.css';
 function MyWork() {
   return (
     <>
-      <div className="col p-4">
-        <div className="p-4 slide-in-top">
+      <div className="col p-4 ">
+        <div className="p-4 slide-in-top projects-wrapper">
 
           <div className="row">
             <div className="col-6">
