@@ -9,6 +9,6 @@ const ProjectsDescription = [
 
   'The organisation website helps the donors to track the activities of the organisation. They can also visit the social handles. React JS, Webpack',
 
-  'The users can be able to see the company wifi subscription, have ability to contact the marketing team and make reservations. HTML, CSS',
+  'The users can be able to see the company wifi subscription, have ability to contact the marketing team and make reservations. HTML, CSS.',
 ];
 export default ProjectsDescription;
