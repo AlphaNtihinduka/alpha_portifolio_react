@@ -223,7 +223,7 @@ function MyWork() {
                   <span className="visually-hidden">Next</span>
                 </button>
               </div>
-              <h5 className="ff-jose my-1">Food Recipe</h5>
+              <h5 className="ff-jose my-1">YUFAT organisation</h5>
               <Popup trigger={<button type="button" className="description-btn"> Description</button>} position="right center">
                 <div className="popup">{ProjectsDescription[4]}</div>
               </Popup>
