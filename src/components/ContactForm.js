@@ -1,3 +1,4 @@
+import React from 'react';
 import Globe from './globe/Globe';
 
 const ContactForm = () => (
