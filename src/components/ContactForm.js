@@ -1,4 +1,3 @@
-import './contact.scss';
 import Globe from './globe/Globe';
 
 const ContactForm = () => (
