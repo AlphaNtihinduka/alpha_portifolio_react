@@ -8,8 +8,8 @@ const ContactForm = () => (
         <div className="text-zone">
           <h1 className="title p-3 text-danger"> Contact </h1>
           <p>
-            I am interested in remote or relocation jobs.
-            Contact me if you have any requests or questions using
+            I am interested in remote or relocation jobs. Please contact me if you have any requests
+            or questions using
             <a className="font-color" href="https://www.linkedin.com/in/ntihinduka-alpha/">
               {' '}
               Linkedin
