@@ -6,11 +6,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   background-color: #16213e;
   color: white;
-  overflow: hidden;
-}
-
-projects-wrapper {
-  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .ff-jose {

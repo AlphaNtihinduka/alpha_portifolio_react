@@ -13,18 +13,18 @@ function About() {
                 <h1 className="font-big text-red slide-in-top">About me</h1>
                 <hr />
                 <p className="slide-in-bottom">
-                  Hi, I am ambitious full-stack developer, a self-led learner and team player
-                  with five years of working experience in IT field, 2 of software developement
+                  Hi, I am an ambitious full-stack developer, a self-led learner, and a team player
+                  with five years of working experience in the IT field, 2 in software development
                   in both solo and collaborative environments.
                 </p>
                 <p className="slide-in-bottom">
-                  I am currently looking for new opportunities in industry and willing
+                  I am currently looking for new opportunities in the industry and willing
                   to work on challenging and diverse projects with the latest technologies,
                   frameworks and languages.
                 </p>
                 <p className="slide-in-bottom">
                   Reach out to me if you need a project built. Check out some of my technologies,
-                  frameworks, and languages i use to build projects below.
+                  frameworks, and languages I use to build projects below.
                 </p>
                 <div className="slide-in-bottom">
                   The technology I have worked on
